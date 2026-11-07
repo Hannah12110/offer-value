@@ -1,0 +1,12 @@
+{
+  "company": "示例公司（虚构）",
+  "role": "示例岗位",
+  "city": "示例城市",
+  "stage": "pre_salary",
+  "legal_entity": null,
+  "office": null,
+  "compensation": {
+    "currency": "CNY",
+    "fixed_monthly": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "currency": "CNY",
+  "fixed_monthly": null,
+  "guaranteed_months": null,
+  "guaranteed_allowance_annual": null,
+  "target_variable_annual": null,
+  "tax_model": "CN_resident_annual",
+  "tax_policy": {
+    "source_url": "https://www.chinatax.gov.cn/n810219/n810744/n3752930/n3752974/c3970366/content.html",
+    "as_of": "2026-11-06",
+    "annual_basic_deduction": 60000
+  },
+  "monthly_employee_contributions": null,
+  "annual_additional_deduction": null,
+  "actual_hours_week": null,
+  "commute_hours_week": null,
+  "relocation_cost": null,
+  "refundable_deposit": null,
+  "monthly_budgets": {
+    "conservative": null,
+    "baseline": null,
+    "comfortable": null
+  },
+  "assumptions": [
+    "示例输入保留未知；使用时需核验当前政策与个人参数。"
+  ]
+}

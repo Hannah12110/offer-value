@@ -1,0 +1,1081 @@
+{
+  "notice": "虚构数据和example.org引用为测试桩，不能用于真实决策",
+  "offers": [
+    {
+      "id": "fictional-shanghai",
+      "research_as_of": "2026-11-06",
+      "rubric_version": 1,
+      "stage": "confirmed",
+      "salary_guaranteed_known": true,
+      "currency": "CNY",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "industry",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_role",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "role",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_company",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "company",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_capital",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "capital",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_fit",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "fit",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_economics",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "economics",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_location",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "location",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_conditions",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "conditions",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_entity",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "entity",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_salary",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "salary",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_duties",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "duties",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_legal_safety",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "legal_safety",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_constraints",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "constraints",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        }
+      ],
+      "dimensions": {
+        "industry": [
+          {
+            "id": "0",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "E1"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "E1"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "E1"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "role": [
+          {
+            "id": "0",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_role"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_role"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_role"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "company": [
+          {
+            "id": "0",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_company"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_company"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_company"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "capital": [
+          {
+            "id": "0",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_capital"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_capital"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_capital"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "fit": [
+          {
+            "id": "0",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_fit"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_fit"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_fit"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "economics": [
+          {
+            "id": "0",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_economics"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_economics"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_economics"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "location": [
+          {
+            "id": "0",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_location"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_location"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_location"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "conditions": [
+          {
+            "id": "0",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_conditions"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_conditions"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              6,
+              8
+            ],
+            "evidence_ids": [
+              "D_conditions"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ]
+      },
+      "blockers": {
+        "entity": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_entity"
+          ],
+          "reason": "Test verified"
+        },
+        "salary": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_salary"
+          ],
+          "reason": "Test verified"
+        },
+        "duties": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_duties"
+          ],
+          "reason": "Test verified"
+        },
+        "legal_safety": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_legal_safety"
+          ],
+          "reason": "Test verified"
+        },
+        "constraints": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_constraints"
+          ],
+          "reason": "Test verified"
+        }
+      },
+      "city": "上海"
+    },
+    {
+      "id": "fictional-shenzhen",
+      "research_as_of": "2026-11-06",
+      "rubric_version": 1,
+      "stage": "confirmed",
+      "salary_guaranteed_known": true,
+      "currency": "CNY",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "industry",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_role",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "role",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_company",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "company",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_capital",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "capital",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_fit",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "fit",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_economics",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "economics",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_location",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "location",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "D_conditions",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "conditions",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_entity",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "entity",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_salary",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "salary",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_duties",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "duties",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_legal_safety",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "legal_safety",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        },
+        {
+          "evidence_id": "B_constraints",
+          "claim": "Synthetic test fixture: confirmed criteria",
+          "source_title": "Test",
+          "source_url": "https://example.org/test",
+          "publisher": "Fixture",
+          "published_at": null,
+          "accessed_at": "2026-11-06",
+          "evidence_type": "A",
+          "credibility": "high",
+          "freshness": "current",
+          "supports_or_conflicts": "supports",
+          "related_dimension": "constraints",
+          "verification_status": "verified",
+          "claim_kind": "FACT"
+        }
+      ],
+      "dimensions": {
+        "industry": [
+          {
+            "id": "0",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "E1"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "E1"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "E1"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "role": [
+          {
+            "id": "0",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_role"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_role"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_role"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "company": [
+          {
+            "id": "0",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_company"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_company"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_company"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "capital": [
+          {
+            "id": "0",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_capital"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_capital"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_capital"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "fit": [
+          {
+            "id": "0",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_fit"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_fit"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_fit"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "economics": [
+          {
+            "id": "0",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_economics"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_economics"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_economics"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "location": [
+          {
+            "id": "0",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_location"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_location"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_location"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ],
+        "conditions": [
+          {
+            "id": "0",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_conditions"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "1",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_conditions"
+            ],
+            "rationale": "Fixture justification"
+          },
+          {
+            "id": "2",
+            "score": [
+              7,
+              9
+            ],
+            "evidence_ids": [
+              "D_conditions"
+            ],
+            "rationale": "Fixture justification"
+          }
+        ]
+      },
+      "blockers": {
+        "entity": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_entity"
+          ],
+          "reason": "Test verified"
+        },
+        "salary": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_salary"
+          ],
+          "reason": "Test verified"
+        },
+        "duties": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_duties"
+          ],
+          "reason": "Test verified"
+        },
+        "legal_safety": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_legal_safety"
+          ],
+          "reason": "Test verified"
+        },
+        "constraints": {
+          "status": "clear",
+          "evidence_ids": [
+            "B_constraints"
+          ],
+          "reason": "Test verified"
+        }
+      },
+      "city": "深圳"
+    }
+  ]
+}

@@ -1,0 +1,973 @@
+{
+  "results": {
+    "fictional-shanghai": {
+      "decision": "HOLD",
+      "evidence_status": "SUFFICIENT_EVIDENCE",
+      "coverage": 1.0,
+      "score_interval": [
+        60.0,
+        80.0
+      ],
+      "score": null,
+      "known_weighted_score": 70.0,
+      "known_score_label": "非完整总分（已覆盖子项的区间中点）",
+      "credibility_counts": {
+        "high": 8
+      },
+      "blocked": [],
+      "unresolved_blockers": [],
+      "dimensions": {
+        "industry": {
+          "interval": [
+            6.0,
+            8.0
+          ],
+          "coverage": 1.0,
+          "weight": 10,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "E1"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "E1"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "E1"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "role": {
+          "interval": [
+            6.0,
+            8.0
+          ],
+          "coverage": 1.0,
+          "weight": 20,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_role"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_role"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_role"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "company": {
+          "interval": [
+            6.0,
+            8.0
+          ],
+          "coverage": 1.0,
+          "weight": 15,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_company"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_company"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_company"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "capital": {
+          "interval": [
+            6.0,
+            8.0
+          ],
+          "coverage": 1.0,
+          "weight": 20,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_capital"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_capital"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_capital"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "fit": {
+          "interval": [
+            6.0,
+            8.0
+          ],
+          "coverage": 1.0,
+          "weight": 15,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_fit"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_fit"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_fit"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "economics": {
+          "interval": [
+            6.0,
+            8.0
+          ],
+          "coverage": 1.0,
+          "weight": 10,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_economics"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_economics"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_economics"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "location": {
+          "interval": [
+            6.0,
+            8.0
+          ],
+          "coverage": 1.0,
+          "weight": 5,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_location"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_location"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_location"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "conditions": {
+          "interval": [
+            6.0,
+            8.0
+          ],
+          "coverage": 1.0,
+          "weight": 5,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_conditions"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_conditions"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                6,
+                8
+              ],
+              "evidence_ids": [
+                "D_conditions"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                6.0,
+                8.0
+              ],
+              "covered": true
+            }
+          ]
+        }
+      }
+    },
+    "fictional-shenzhen": {
+      "decision": "CONDITIONAL_ACCEPT",
+      "evidence_status": "SUFFICIENT_EVIDENCE",
+      "coverage": 1.0,
+      "score_interval": [
+        70.0,
+        90.0
+      ],
+      "score": null,
+      "known_weighted_score": 80.0,
+      "known_score_label": "非完整总分（已覆盖子项的区间中点）",
+      "credibility_counts": {
+        "high": 8
+      },
+      "blocked": [],
+      "unresolved_blockers": [],
+      "dimensions": {
+        "industry": {
+          "interval": [
+            7.0,
+            9.0
+          ],
+          "coverage": 1.0,
+          "weight": 10,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "E1"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "E1"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "E1"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "role": {
+          "interval": [
+            7.0,
+            9.0
+          ],
+          "coverage": 1.0,
+          "weight": 20,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_role"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_role"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_role"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "company": {
+          "interval": [
+            7.0,
+            9.0
+          ],
+          "coverage": 1.0,
+          "weight": 15,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_company"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_company"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_company"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "capital": {
+          "interval": [
+            7.0,
+            9.0
+          ],
+          "coverage": 1.0,
+          "weight": 20,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_capital"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_capital"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_capital"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "fit": {
+          "interval": [
+            7.0,
+            9.0
+          ],
+          "coverage": 1.0,
+          "weight": 15,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_fit"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_fit"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_fit"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "economics": {
+          "interval": [
+            7.0,
+            9.0
+          ],
+          "coverage": 1.0,
+          "weight": 10,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_economics"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_economics"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_economics"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "location": {
+          "interval": [
+            7.0,
+            9.0
+          ],
+          "coverage": 1.0,
+          "weight": 5,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_location"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_location"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_location"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            }
+          ]
+        },
+        "conditions": {
+          "interval": [
+            7.0,
+            9.0
+          ],
+          "coverage": 1.0,
+          "weight": 5,
+          "subindicators": [
+            {
+              "id": "0",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_conditions"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "1",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_conditions"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            },
+            {
+              "id": "2",
+              "score": [
+                7,
+                9
+              ],
+              "evidence_ids": [
+                "D_conditions"
+              ],
+              "rationale": "Fixture justification",
+              "effective_interval": [
+                7.0,
+                9.0
+              ],
+              "covered": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "robust_leader": null,
+  "economics_comparable": true,
+  "note": "区间重叠或证据不足不强排名；经济金额跨币种需先有来源的换汇"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "这个 Offer 能选吗？"
+  short_description: "结合职业目标、真实证据、薪酬和生活成本，开展 Offer 尽调、比较与谈薪准备"
+  default_prompt: "使用 $offer-decision 分析我的公司、岗位和 Base，先研究关键事实，再给出可追溯的决策与谈薪报告。"
+policy:
+  allow_implicit_invocation: true
