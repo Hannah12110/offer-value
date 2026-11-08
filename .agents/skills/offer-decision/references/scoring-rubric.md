@@ -13,3 +13,6 @@ blockers 对象固定五项：entity、salary、duties、legal_safety、constrai
 证据适配的确定性下限：评分引用的 related_dimension 必须等于对应维度key；不能把role事实铺到所有维度。blocker的证据 related_dimension 必须为该事项key（entity/salary/duties/legal_safety/constraints）。除constraints可用USER/self_reported偏好外，其他事项必须使用当前、无争议、非推断、medium以上且verified的A/B/C证据；雇主书面文件按B登记，用户目标不是条款证据。仍需人工核“引用内容确实支持该条结论”，标签本身不能证明事实。
 
 比较输入每个Offer必须有相同的research_as_of（ISO日期）；未指定、无效或不同时拒绝比较，防止不同截止日产生假排名。口头/面试阶段不会返回ACCEPT或CONDITIONAL_ACCEPT；C可继续NEGOTIATE。
+
+读者语言：ACCEPT、CONDITIONAL_ACCEPT、NEGOTIATE、HOLD、DECLINE、SUFFICIENT_EVIDENCE、INSUFFICIENT_EVIDENCE 以及 blocker 的 clear/unknown/blocked 只用于脚本和复核。正文一律按 references/report-presentation.md 的对照表写成动作句（先别签，先谈条件／可以有条件地签／可以签／建议放弃／证据不足），需要复核时在括号内保留内部状态；阈值同时给“到了才算什么”的读法。禁止把枚举直接当结论交付。
+覆盖口径：coverage 是加权平均（Σ权重×有据子项数÷3÷100），与“16/24 子项计数”不是一回事。报告展示覆盖率时必须写明是哪一种口径，不得混用。评分结论须配三张可解释图（加权贡献、覆盖度、敏感性），图内门槛线用中文标注，不用 CONDITIONAL、DECLINE 等枚举。

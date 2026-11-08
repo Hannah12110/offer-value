@@ -23,7 +23,9 @@ $offer-decision 我下周谈薪，已有口头 Offer，但薪资尚未确认。
 - 重要判断关联 Evidence Ledger，显示来源、时间、可信度和冲突。
 - 未知薪资保持 null，不把招聘报价当个人 Offer。
 - 固定保障和浮动收入分开；提供生活预算、时薪和储蓄情景。
-- 先检查关键门槛，再展示区间评分、证据覆盖与敏感性分析。
+- 先检查关键门槛，再展示区间评分、证据覆盖与敏感性分析；评分结论配三张图：加权贡献叠加、覆盖度、敏感性。
+- 结论用动作句交付（先别签，先谈条件／可以有条件地签／建议放弃），内部枚举只留在括号和脚本输出里，不把 HOLD 这类状态词直接丢给读者。
+- 强调分三级：结论与红线用红字、关键数字用浅红底、其余加粗；红字不超过全文 15%。
 - 证据不足时给出 HOLD；谈薪模式可建议 NEGOTIATE，不表示可以签约。
 - 不自动联系 HR、接受或拒绝 Offer。
 
@@ -43,6 +45,9 @@ python3 .agents/skills/offer-decision/scripts/score_offer.py \
 python3 .agents/skills/offer-decision/scripts/validate_skill.py \
   .agents/skills/offer-decision
 
+python3 .agents/skills/offer-decision/scripts/render_charts.py \
+  .agents/skills/offer-decision/assets/assessment.example.json --outdir runs/charts
+
 python3 -m unittest discover -s .agents/skills/offer-decision/tests -v
 ```
 
@@ -54,8 +59,8 @@ python3 -m unittest discover -s .agents/skills/offer-decision/tests -v
 .agents/skills/offer-decision/
   SKILL.md
   agents/openai.yaml
-  references/   # 八个研究模块及共同规范
-  scripts/      # 评分、薪酬、证据校验、报告与离线入口
+  references/   # 八个研究模块、证据规范与呈现规范
+  scripts/      # 评分、薪酬、证据校验、报告、评分图表与离线入口
   assets/       # 空画像、虚构示例及报告模板
   tests/        # 单元与命令行集成测试
 docs/

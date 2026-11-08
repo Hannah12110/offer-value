@@ -1,85 +1,101 @@
 # Offer Decision Report
 
-## 1. Executive Decision
+写作与呈现规则见 `references/report-presentation.md`，先读它再落笔。三条硬约束：
 
-当前建议；信心/覆盖率；三理由；接受条件。
-
-每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
-
-## 2. Personal Career Fit
-
-与当前 Offer 相关的证据、分析和待核实事项。
+1. **判定语中文化**：脚本返回的 `decision`、`evidence_status`、blocker 状态只是内部枚举。正文写“先别签，先谈条件”“可以有条件地签”“证据不足”“签约主体未知”，并在括号内保留内部状态供复核，例如“先别签，先谈条件（内部状态 HOLD）”。
+2. **强调分三级**：结论与红线用红字（全篇 10—15 处）；决定判断的数字用浅红底（8—12 处）；其余关键句用加粗。顶部结论块用浅红底，正文不再重复结论。
+3. **评分配三张图**：加权贡献叠加、覆盖度、敏感性，用 `scripts/render_charts.py` 生成；每图前提出问题、图后写读图结论；表查数、图定位，同一组数据不重复表达。
 
 每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
 
-## 3. Industry Outlook
+## 1. Executive Decision（执行决策）
 
-与当前 Offer 相关的证据、分析和待核实事项。
+写四件事：结论动作句、支撑理由（按权重排序，三条即可）、覆盖与信心、解锁条件。
 
-每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
-
-## 4. Role Outlook
-
-与当前 Offer 相关的证据、分析和待核实事项。
+- 结论用动作句而非状态词：“先别签，先谈条件”，下一句解释为什么不是否决——多大程度上是信息缺口、多大程度上是条件不行。
+- 阈值要有读法：“58.5 的上限没低到 50 以下，还不到该放弃的程度；50.7 的下限没到 65，够不上可以有条件地签。”
+- 解锁条件写成可验证的三条，例如：书面 offer 到手；底薪≥某数或提成规则入合同；签约主体与工商口径对齐。
 
 每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
 
-## 5. Company Due Diligence
+## 2. Personal Career Fit（个人职业匹配）
 
-与当前 Offer 相关的证据、分析和待核实事项。
-
-每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
-
-## 6. Base Intelligence
-
-与当前 Offer 相关的证据、分析和待核实事项。
+目标岗位与这份工作的四个对象逐项对齐：赛道、职能、城市、起点。写成“哪一项谈薪改得了、哪一项改不了”。未来三年的取舍若用户未明示，保留 [UNKNOWN]，不要替用户承诺。
 
 每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
 
-## 7. Career Capital Matrix
+## 3. Industry Outlook（行业前景）
 
-能力项｜获得机会｜证据｜可迁移性｜目标适配｜风险。
-
-每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
-
-## 8. Compensation & Scenario Model
-
-保障/目标收入、税后、三预算、时薪、搬迁、2/3年储蓄及假设。
+总量、结构、政策三条线各给数字与口径，标明统计期。口径冲突（不同机构、不同统计期）并列保留，不串成一条曲线。结尾一句说清：行业仍在增长但增速下移，对个人的实际含义是什么。
 
 每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
 
-## 9. Risks & Opportunity Costs
+## 4. Role Outlook（岗位前景）
 
-乐观/基准/不利与不接受的反事实；不编概率。
-
-每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
-
-## 10. Weighted Decision
-
-子项理由/引用、维度区间、覆盖、可信度、阻断和敏感性。
+先给职级阶梯与带宽（含同城在架样本），再指出质变点及其跨线标志。岗位若配薪资带图，图后必须写“缝窄说明靠换公司涨薪、缝宽说明靠能力跳档”一类读图结论。
 
 每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
 
-## 11. Questions for HR & Hiring Manager
+## 5. Company Due Diligence（公司尽调）
 
-与当前 Offer 相关的证据、分析和待核实事项。
-
-每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
-
-## 12. Negotiation Strategy
-
-与当前 Offer 相关的证据、分析和待核实事项。
+企业自报与工商登记并列成表，两处来源冲突时都保留、标明冲突，不采信单边。业务真实性、主体清晰度、财务可见性分开写；写不出的部分标 [UNKNOWN]，不要用宣传口径补。
 
 每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
 
-## 13. 90-Day Action Plan
+## 6. Base Intelligence（城市与位置情报）
 
-谈薪前/签约前/入职后；6/12/24月检查点。
+岗位密度、租金挂牌、政策补贴三块，全部给样本量与采集时间。跨城比较用同一岗位带宽，而不是城市平均薪资；补贴按税后口径比，并说明“这笔钱不增加公司成本，不能拿去抵加薪”。
 
 每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
 
-## 14. Sources & Evidence
+## 7. Career Capital Matrix（职业资本矩阵）
 
-Evidence ID、来源链接、发布/访问/统计期、属性/冲突。
+六列固定：能力项｜获得机会｜证据｜可迁移性｜目标适配｜风险。每个能力项单独一行，写清“迁移到哪条赛道、迁移时会不会打折”。
+
+每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
+
+## 8. Compensation & Scenario Model（薪酬与情景模型）
+
+保障部分与浮动部分分开：确定部分、情景部分、口头上限三层；税后、三档生活预算、时薪、搬迁、2—3 年储蓄都要有。浮动收入必须写明“这不是承诺”。
+
+每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
+
+## 9. Risks & Opportunity Costs（风险与机会成本）
+
+乐观/基准/不利三情景各给触发条件，不编概率；再写“不接受这份 offer 的反事实”，两边都算。机会成本要落到“第二年起出现的可选项差异”，而不是第一年存款差额。
+
+每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
+
+## 10. Weighted Decision（加权决策）
+
+顺序：一段口径说明 → 加权贡献图 → 读图结论 → 八维区间表（维度/权重/子指标/区间/覆盖/理由）→ 汇总与判定 → 覆盖度图 → 读图 → 敏感性图 → 读图 → 改变结论的杠杆 → 自我限制。
+
+- 加权贡献图回答“总分怎么垒起来、距 65 差多少”；覆盖图回答“哪些维度其实没证据”；敏感性图回答“换权重结论会不会翻转”。三张图各一段引入、一段读图，不得连排。
+- 汇总必须给：区间、覆盖率、为何不判放弃、为何够不上接受、当前阶段限制、完整总分是否可输出。
+- 覆盖下降要解释是“把水分挤掉”，不是“分数变差”。
+
+每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
+
+## 11. Questions for HR & Hiring Manager（问 HR 与用人经理的问题）
+
+排序按“决定能不能签”优先，再“决定值不值得留”。每题给三列：问什么、问到什么程度、不问的后果。附四条“打太极”的追问与一句判断标准：没有数字、没有时间点、没有责任人，就是还没问到。
+
+每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
+
+## 12. Negotiation Strategy（谈薪策略）
+
+三段式话术（表态 → 摆同城对标与自身证据 → 换确定性），退守四条按重要性排序，三条红线单独成句并标红。底线写清“什么情况下从先别签转建议放弃”。
+
+每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
+
+## 13. 90-Day Action Plan（90 天行动计划）
+
+谈薪前 / 签约前 / 入职后三阶段，每阶段一个核心动作与完成标准；6/12/24 月检查点各一句，24 个月那条要写出退出触发（例如“有没有被授权对备货量签字”）。
+
+每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。
+
+## 14. Sources & Evidence（来源与证据）
+
+逐个证据列出：evidence_id、claim、来源标题与链接、发布方、发布/访问/统计期、类型/可信度/新鲜度、支持或冲突、关联维度、核验状态。冲突双方都列，不删不合意数据。正文引用编号，不复述来源名。
 
 每条判断标注 [FACT] / [ESTIMATE] / [INFERENCE] / [UNKNOWN]。

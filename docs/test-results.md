@@ -2,7 +2,7 @@
 
 Executed 2026-11-07 with Python 3.13.4.
 
-67 tests passed; dependency-free package validation passed. Codex host auto-discovery and Python 3.10 were not separately tested. The official quick_validate tool was unavailable in the development environment because PyYAML was absent.
+67 tests passed; dependency-free package validation passed. 2026-11-08 追加呈现规范与评分图表后复跑：72 tests passed（新增 tests/test_presentation.py 5 项）。 Codex host auto-discovery and Python 3.10 were not separately tested. The official quick_validate tool was unavailable in the development environment because PyYAML was absent.
 
 ```text
 tests: PASS
@@ -86,4 +86,20 @@ structure: PASS
   "scope": "restricted YAML scalars, local links, JSON, Python syntax; not Codex runtime discovery"
 }
 
+```
+
+## 2026-11-08 presentation update
+
+新增 references/report-presentation.md、scripts/render_charts.py 与 tests/test_presentation.py；render_report.py 与 run_offer.py 改为输出中文动作句并在报告中附三张评分图。复跑结果：72 tests passed，validate_skill.py valid。Python 3.14.7，仍未安装 pytest，使用 unittest。
+
+```text
+Ran 72 tests in 0.211s
+
+OK
+
+{
+  "valid": true,
+  "errors": [],
+  "scope": "restricted YAML scalars, local links, JSON, Python syntax; not Codex runtime discovery"
+}
 ```

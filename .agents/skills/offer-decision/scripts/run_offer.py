@@ -6,6 +6,7 @@ from common import read,dump
 from score_offer import WEIGHTS,BLOCKERS,sensitivity
 from calculate_compensation import calculate
 from render_report import render
+from render_charts import render_charts
 
 
 def prepare(d):
@@ -27,5 +28,6 @@ if __name__=='__main__':
         for name,data in [('bundle',d),('assessment',d['assessment']),('compensation',d['compensation']),('evidence',[]),('score-result',s),('compensation-result',c)]:
             (pout/(name+'.json')).write_text(dump(data)+'\n',encoding='utf-8')
         (pout/'report.md').write_text(text,encoding='utf-8')
+        render_charts(d,str(pout/'charts'))
         print(str(pout.resolve()))
     except (ValueError,KeyError,TypeError,OSError) as e:p.exit(2,f'Invalid input: {e}\n')
